@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage x:Class="XLargeImage.SourceCode.Views.TestPageView"
+             xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:controls="clr-namespace:XLargeImage.SourceCode.Controls;assembly=XLargeImage">
+    <ScrollView Orientation="Vertical">
+        <StackLayout x:Name="LargeImage">
+            <controls:XLargeImage HeightRequest="200"
+                                  ImageSource="{Binding LargeImageSource}"
+                                  WidthRequest="200" />
+            <controls:XLargeImage HeightRequest="200"
+                                  ImageSource="{Binding LargeImageSource}"
+                                  WidthRequest="200" />
+            <controls:XLargeImage HeightRequest="200"
+                                  ImageSource="{Binding LargeImageSource}"
+                                  WidthRequest="200" />
+            <controls:XLargeImage HeightRequest="200"
+                                  ImageSource="{Binding LargeImageSource}"
+                                  WidthRequest="200" />
+            <controls:XLargeImage HeightRequest="200"
+                                  ImageSource="{Binding LargeImageSource}"
+                                  WidthRequest="200" />
+            <controls:XLargeImage HeightRequest="200"
+                                  ImageSource="{Binding LargeImageSource}"
+                                  WidthRequest="200" />
+            <controls:XLargeImage HeightRequest="200"
+                                  ImageSource="{Binding LargeImageSource}"
+                                  WidthRequest="200" />
+            <controls:XLargeImage HeightRequest="200"
+                                  ImageSource="{Binding LargeImageSource}"
+                                  WidthRequest="200" />
+            <controls:XLargeImage HeightRequest="200"
+                                  ImageSource="{Binding LargeImageSource}"
+                                  WidthRequest="200" />
+            <controls:XLargeImage HeightRequest="200"
+                                  ImageSource="{Binding LargeImageSource}"
+                                  WidthRequest="200" />
+            <controls:XLargeImage HeightRequest="200"
+                                  ImageSource="{Binding LargeImageSource}"
+                                  WidthRequest="200" />
+            <Button Command="{Binding ChangeLargeImageSourceCommand}" Text="Change image source" />
+        </StackLayout>
+    </ScrollView>
+    <!--<ScrollView Orientation="Vertical">
+        <StackLayout x:Name="NormalImage">
+            <Image HeightRequest="200"
+                   Source="{Binding LargeImageSource}"
+                   WidthRequest="200" />
+            <Image HeightRequest="200"
+                   Source="{Binding LargeImageSource}"
+                   WidthRequest="200" />
+            <Image HeightRequest="200"
+                   Source="{Binding LargeImageSource}"
+                   WidthRequest="200" />
+            <Image HeightRequest="200"
+                   Source="{Binding LargeImageSource}"
+                   WidthRequest="200" />
+            <Image HeightRequest="200"
+                   Source="{Binding LargeImageSource}"
+                   WidthRequest="200" />
+            <Image HeightRequest="200"
+                   Source="{Binding LargeImageSource}"
+                   WidthRequest="200" />
+            <Image HeightRequest="200"
+                   Source="{Binding LargeImageSource}"
+                   WidthRequest="200" />
+            <Image HeightRequest="200"
+                   Source="{Binding LargeImageSource}"
+                   WidthRequest="200" />
+            <Image HeightRequest="200"
+                   Source="{Binding LargeImageSource}"
+                   WidthRequest="200" />
+            <Image HeightRequest="200"
+                   Source="{Binding LargeImageSource}"
+                   WidthRequest="200" />
+            <Button Command="{Binding ChangeLargeImageSourceCommand}" Text="Change image source" />
+        </StackLayout>
+    </ScrollView>-->
+</ContentPage>
